@@ -1,0 +1,285 @@
+/*
+* @Author: DELL
+* @Date:   2020-06-04 20:58:05
+* @Last Modified by:   DELL
+* @Last Modified time: 2020-06-06 09:44:04
+*/
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+}
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.top{
+	width:1380px;
+	height:100px;
+	margin:auto;
+}
+.logo{
+	float:left;
+	margin:20px 10px;
+}
+.search1{
+	margin-left:80px;
+	margin-top:25px;
+	width:488px;
+	height:41px;
+	color:rgb(128,138,135);
+	border:2px solid #bf0250;
+}
+.search2{
+	height:45px;
+	width:87px;
+	margin-right:30px;
+	border:1px solid #bf0250;
+	background-color:#bf0250;
+	color:white;
+}
+.gouwuche a{
+	color:black;
+}
+.gouwuche{
+	display:inline-block;
+	border:1px solid rgb(128,138,135);
+	height:33px;
+	width:146px;
+	padding-top:10px;
+	margin-left:19px;
+	background-color:#fafafa;
+	text-align:center;
+	font-size:15px;
+}
+.denglu{
+	display:inline-block;
+	margin-left:10px;
+}
+.denglu a{
+	color:#779fc2;
+}
+.youhui{
+	display:inline-block;
+	border:1px solid rgb(128,138,135);
+	height:33px;
+	width:146px;
+	padding-top:10px;
+	margin-left:19px;
+	background-color:#fafafa;
+	text-align:center;
+	font-size:15px;
+}
+.bannerbox{
+	background:url('img/banner.jpg') no-repeat center;
+	height:400px;
+}
+.banner{
+	width:1380px;
+	margin:auto;
+	position:relative;
+}
+.left{
+	position:absolute;
+	top:150px;
+	left:130px;
+}
+.right{
+	position:absolute;
+	top:150px;
+	right:130px;
+}
+.banner ul{
+	background-color:rgba(0,0,0, 0.5);
+	width:150px;
+	height:400px;
+}
+.leftimg1{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.leftimg2{
+	position:absolute;
+	right:0px;
+	top:155px;
+}
+.leftimg3{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+.banner ul li{
+	padding-bottom:33px;
+	margin-left:30px;
+	width:100px;
+}
+#lastli{
+	padding-bottom:0px;
+}
+.banner ul a{
+	color:white;
+}
+.nav ul li{
+	float:left;
+	margin:21px 40px;
+}
+.nav ul li a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,0,0,1);
+}
+.smallnav{
+	width:1380px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	margin:auto;
+}
+#xingqu{
+	float:right;
+}
+#xingqu a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+}
+.jiucha{
+	width:1200px;
+	margin:auto;
+	line-height:50px;
+	margin-top:10px;
+}
+.jiucha p{
+	text-indent:30px;
+	height:50px;
+	font-weight:bold;
+}
+.tuijianbox{
+}
+.tuijian{
+	width:1380px;
+	height:480px;
+	margin:auto;
+	overflow:hidden;
+}
+.tuijian0{
+	float:left;
+	position:relative;
+}
+.tuijian1{
+	float:left;
+	width:242px;
+	height:240px;
+	position:relative;
+	margin-left:11px;
+	border:1px solid black;
+}
+#jiage1{
+	position:absolute;
+	left:3px;
+	top:10px;
+}
+#jiage2{
+	position:absolute;
+	right:3px;
+	top:10px;
+}
+.jiage{
+	background-color:rgba(0, 0, 0, 0.5);
+	position:absolute;
+	bottom:0px;
+}
+.jiage p{
+	font-size:12px;
+	font-family:宋体;
+	color:white;
+	margin:15px 30px 8px 29px;
+}
+.tuijian span{
+	color:#c00;
+	margin-left:30px;
+}
+.shipin{
+	margin:auto;
+	margin-bottom: 80px;
+	width:1380px;
+	height:480px;
+	overflow:hidden;
+}
+.shipin1{
+	float:right;
+	width:242px;
+	height:240px;
+	position:relative;
+	margin-right:11px;
+	border:1px solid black;
+}
+.shipin0{
+	float:right;
+}
+.shipinnav{
+	width:1200px;
+	margin:auto;
+	line-height:50px;
+	margin-top:10px;
+}
+.shipin span{
+	color:#c00;
+	margin-left:30px;
+}
+.shipinnav p{
+	text-indent:30px;
+	height:50px;
+	font-weight:bold;
+}
+.shipin p{
+	font-size:12px;
+	font-family:宋体;
+	color:white;
+	margin:15px 30px 8px 29px;
+}
+.lastbox{
+	height:217px;
+	margin:30px;
+}
+.last{
+	width:1380px;
+	margin:auto;
+}
+.last ul{
+	height:144px;
+	width:200px;
+	float:left;
+	margin-right:20px;
+	list-style:disc;
+}
+.last ul li{
+	line-height:30px;
+	text-indent:20px;
+}
+.last ul li a{
+	color:black;
+	font-size:11px;
+}
+.firstli{
+	border-bottom:1px solid black;
+	list-style:none;
+	text-indent:0px;
+}
+
+.banquan{
+	width:1380px;
+	text-align:right;
+	font-size:10px;
+	margin:auto;
+}
